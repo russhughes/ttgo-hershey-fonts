@@ -4,6 +4,12 @@ ttgo-lcd-demo
 MicroPython Hershey fonts demo for the TTGO-LCD using the st7789py_mpy driver
 from https://github.com/devbis/st7789py_mpy
 
+|
+
+.. figure:: images/ttgo-hershey-fonts.jpg
+   :align: center
+
+|
 
 I pulled this from the oledui module I wrote for my `TurtlePlotBot
 <https://github.com/russhughes/TurtlePlotBot>`_ it's not fast but it works
