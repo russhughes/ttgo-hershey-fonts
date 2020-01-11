@@ -55,6 +55,6 @@ Speed comparison
 ----------------
 
 `Video speed comparison <https://www.youtube.com/watch?v=vJM0UM0XSL4>`_ of
-Memory and File based method using devbis `Fast pure-C driver for MicroPython
+Memory and File based methods using devbis `Fast pure-C driver for MicroPython
 <https://github.com/devbis/st7789_mpy>`_ repo.
 
