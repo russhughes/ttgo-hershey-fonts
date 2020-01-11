@@ -34,7 +34,7 @@ import fhello to run.
 Memory Based Fonts
 ==================
 
-I used the same method Peter Hinch uses in his `GitHub Repo.
+I used the same method Peter Hinch uses in his `GitHub Repo
 <https://github.com/peterhinch/micropython-font-to-py>`_ to store the Hershey
 vector data in a python bytearray. The memory fonts use more memory since the
 font is loaded into memory for use but they are faster the the file based
