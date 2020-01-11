@@ -51,3 +51,10 @@ copy all the py files in the repos /pyfonts directory to it. I use `mpfshell
 
 import pyhello to run.
 
+Speed comparison
+----------------
+
+`Video speed comparison <https://www.youtube.com/watch?v=vJM0UM0XSL4>`_ of
+Memory and File based method using devbis `Fast pure-C driver for MicroPython
+<https://github.com/devbis/st7789_mpy>`_ repo.
+

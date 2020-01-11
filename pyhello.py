@@ -6,9 +6,37 @@ import uos
 import random
 
 sys.path.append('/pyfonts')
-import pytext
+import astrol
+import cyrilc
+import gotheng
+#import gothger
+#import gothita
+import greeks
+import italicc
+import italiccs
+import meteo
+import music
+import romanc
+import romancs
+import romand
+import romanp
 import romans
+import romant
 import scriptc
+import scripts
+
+import pytext
+
+fonts = [astrol, cyrilc, gotheng, greeks, italicc, italiccs,
+         italiccs, meteo, music, romanc,
+         romancs, romand, romanp, romans,
+         romant, scriptc, scripts]
+
+
+
+def pick_item(sequence):
+    div = 0x3fffffff // len(sequence)
+    return sequence[random.getrandbits(30) // div]
 
 bl = machine.Pin(4, machine.Pin.OUT)
 bl.value(1)
@@ -40,10 +68,7 @@ while again:
 
     row += 32
 
-    if (row % 64 == 0):
-        pytext.text(display, scriptc, "Hello!", row, 0, color)
-    else:
-        pytext.text(display, romans, "Hello!", row, 0, color)
+    pytext.text(display, pick_item(fonts), "Hello!", row, 0, color)
 
     if row > 192:
         display.fill(st7789.BLACK)

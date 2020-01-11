@@ -26,7 +26,6 @@ def text(display, font, message, row=32, column=0, color=st7789.WHITE):
     '''
     Write `text` on `display` starting on `row` stating in `column` using
     `font` in `color`
-    the
 
     Args:
         display: The display device to write on

@@ -31,11 +31,10 @@ display = st7789.ST7789(
 display.init()
 display.fill(st7789.BLACK)
 
-fonts = ["astrol.fnt", "cyrilc.fnt", "gotheng.fnt", "gothger.fnt",
-         "gothita.fnt", "greeks.fnt", "italicc.fnt", "italiccs.fnt",
-         "italiccs.fnt", "meteo.fnt", "music.fnt", "romanc.fnt",
-         "romancs.fnt", "romand.fnt", "romanp.fnt", "romans.fnt",
-         "romant.fnt", "scriptc.fnt", "scripts.fnt"]
+fonts = ["astrol.fnt", "cyrilc.fnt", "gotheng.fnt", "greeks.fnt",
+         "italicc.fnt", "italiccs.fnt", "meteo.fnt", "music.fnt",
+         "romanc.fnt", "romancs.fnt", "romand.fnt", "romanp.fnt",
+         "romans.fnt", "romant.fnt", "scriptc.fnt", "scripts.fnt"]
 
 row = 0
 while True:
